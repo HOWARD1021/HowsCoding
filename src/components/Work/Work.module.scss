@@ -1,0 +1,34 @@
+
+.workTitle{
+  @apply flex ;
+  margin:11rem ;
+}
+
+.workText{
+    @apply px-10;
+}
+
+.item {
+  min-height:10rem;
+  min-width:25rem;
+  padding:40px;
+}
+
+.item img {
+  width:100%;
+  height:100%;
+  border-radius: 2rem;
+  // pointer-events:none;
+}
+
+.innerCarousel{
+  @apply flex;
+}
+
+.carousel{
+  cursor:grab;
+  overflow:hidden;
+}
+
+
+
