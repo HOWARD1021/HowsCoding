@@ -9,5 +9,5 @@ export default [
   { image: pet, href: "https://petsprotectors.vercel.app/welcome" },
   { image: oaOL, href: "https://www.openalign.com/" },
   { image: oaAD, href: "/" },
-  { image: netflix, href: "https://netflixclone-orpin.vercel.app" },
+  { image: netflix, href: "http://188.166.240.50/" },
 ];

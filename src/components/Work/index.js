@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 const buttonVariable = {
   hover: {
     scale: 1.1,
-    transition: {
-      duration: 0.4,
-      yoyo: 6,
-    },
+    // transition: {
+    //   duration: 0.4,
+    //   yoyo: 6,
+    // },
   },
 };
 

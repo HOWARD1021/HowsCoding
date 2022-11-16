@@ -1,10 +1,16 @@
 .workTitle{
   margin:20rem;
-    // position: absolute;
-  // grid-column: auto;
-  // background-color:red;
+  color: #333;
+
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
 }
 
 .workText{
     @apply px-10;
+}
+
+.contactFlex{
+  @apply flex items-center;
 }

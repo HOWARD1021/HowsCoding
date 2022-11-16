@@ -39,28 +39,28 @@ const baseVariants = {
 
 function TimeLine() {
   return (
-      <div className={classes.wrap}>
-        <motion.ul
-          className={classes.timeline}
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
-        >
-          {aboutMeType.map((item, index) => {
-            return (
-              <motion.li key={index}>
-                <motion.div
-                  variants={baseVariants}
-                >
-                  <h2>{item.title}</h2>
-                  <p>{item.content}</p>
-                </motion.div>
-              </motion.li>
-            );
-          })}
-        </motion.ul>
-      </div>
+    <div className={classes.wrap}>
+      <motion.ul
+        className={classes.timeline}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >
+        {aboutMeType.map((item, index) => {
+          return (
+            <motion.li key={index}>
+              <motion.div variants={baseVariants}>
+                <h2>{item.title}</h2>
+                {item?.content?.map((item, index) => (
+                  <p>{item}</p>
+                ))}
+              </motion.div>
+            </motion.li>
+          );
+        })}
+      </motion.ul>
+    </div>
   );
 }
 

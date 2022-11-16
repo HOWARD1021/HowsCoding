@@ -1,12 +1,12 @@
 
 .workTitle{
-  @apply flex ;
-  margin:15rem ;
-  min-width: 95rem;
+  @apply flex mx-20 ;
+  margin-top:18rem ;
+  
 }
 
 .workText{
-    @apply px-20;
+    @apply px-10;
 }
 
 .item {

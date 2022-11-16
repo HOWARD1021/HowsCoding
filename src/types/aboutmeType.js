@@ -1,23 +1,31 @@
-export const   aboutMeType =[
-    {
-        title:'Lidemy 前端工程師 ',
-        content:' 本篇重點問題回顧: 列出重點希望各位可以好好的將影片回放複習喔，另外幾個重點問題中，Amos已經有影片的會直接附上連結給各位參考取用。為何需要reset...'
-    },
-
-    {
-        title:'齊盛資訊股份有限公司',
-        content:` Frontend Developer 
-        - 使用前端網頁生態主流 react redux  開發公司網頁應用商品
-        - 維護公司官網
-        - 與後端工程師溝通，討論API 開發細項 ，構想各種錯誤情況處理
-        - 在產品開發上，與UI/UX設計師共同打造良好的使用者介面與體驗`
-    },
-    {
-        title:'氪龍有限公司',
-        content:' 本篇重點問題回顧: 列出重點希望各位可以好好的將影片回放複習喔，另外幾個重點問題中，Amos已經有影片的會直接附上連結給各位參考取用。為何需要reset...'
-    },
-    {
-        title:'Now',
-        content:' 本篇重點問題回顧: 列出重點希望各位可以好好的將影片回放複習喔，另外幾個重點問題中，Amos已經有影片的會直接附上連結給各位參考取用。為何需要reset...'
-    },
-]
+export const aboutMeType = [
+  {
+    title: "Lidemy Program-MentorPlan ",
+    content: [
+      "The Program Mentor Experimental Program started in December 2017",
+      "and it is roughly every six months. The goal of the original creation was:",
+      "Within four months, train you into a web engineer (front-end or back-end) that can find a job",
+    ],
+  },
+  {
+    title: "齊盛資訊股份有限公司",
+    content: [
+      "Frontend Developer",
+      "- OpenAlign is a  Architecture supports websites  ",
+      "- Front end framework - jquery - React",
+      "- CSS Frameworks - Tailwind CSS",
+      "- committed to new feature && maintain Official website",
+    ],
+  },
+  {
+    title: "氪龍有限公司",
+    content: [
+      "Frontend Developer",
+      "- 'Rise Of Elves' is a Crypto Games marketPlace website",
+      "- Front end framework - Next.js & React",
+      "- Blockchain - Polygon ",
+      "- Ethereum web client library - Ethers.js",
+      "- Ethereum development environment -HardHat",
+    ],
+  },
+];
