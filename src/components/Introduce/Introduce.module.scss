@@ -1,12 +1,16 @@
 .Introduce{
-	// font-size: 4.688vw;
-//     text-indent: 4em;
-//     width: 80%;
-//     line-height: 0;
-// 	font-family: 'Noto Sans TC', sans-serif;
-    
-//     padding:10rem 0; 
-//
-@apply 2xl:text-7xl text-7xl text-center font-Aclonica italic ;  
+@apply 2xl:text-5xl text-3xl text-center font-Aclonica italic;  
+text-decoration: none;
+background-color: #fff;
+border:1px solid #aaa;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 3px 3px 5px #888; 
+width:50%;
+margin:auto;
+}
 
+.Introducecontent{
+	
+@apply 2xl:text-3xl text-2xl text-center font-Aclonica italic;  
 }

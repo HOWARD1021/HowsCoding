@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <>
       <div className={classes.workTitle}>
-      <Introduce />
+        <Introduce />
         <TimeLine />
       </div>
     </>

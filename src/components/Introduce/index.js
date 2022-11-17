@@ -46,11 +46,10 @@ function Introduce() {
         animate="visible"
         exit="exit"
       >
-        {" "}
         Hi My Name is Howard
-        <motion.div className={classes.Introduce} variants={baseVariants}>
-          In the pass 2 years, I'm currently based in Taiwan , working as an
-          Frontend-end Engineer since MAY, 2020
+        <motion.div className={classes.Introducecontent} variants={baseVariants}>
+           I'm currently based in Taiwan , working as a
+          Frontend-end Engineer 
         </motion.div>
       </motion.div>
     </>
