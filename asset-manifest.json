@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HowsCoding/static/css/main.4f2f184e.css",
+    "main.js": "/HowsCoding/static/js/main.1aebd8fa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/HowsCoding/static/js/787.1ed0c42c.chunk.js",
+    "static/media/riseOfElves.png": "/HowsCoding/static/media/riseOfElves.fe51bb4010eefea875ae.png",
+    "static/media/netflix.png": "/HowsCoding/static/media/netflix.6709a936914aabebceb3.png",
+    "static/media/oaOL.png": "/HowsCoding/static/media/oaOL.97ba2778ddddf095a976.png",
+    "static/media/pet.png": "/HowsCoding/static/media/pet.6cd4f71d0a90b660122f.png",
+    "static/media/oaAD.png": "/HowsCoding/static/media/oaAD.0b201459ee0e49c4c938.png",
+    "index.html": "/HowsCoding/index.html",
+    "main.4f2f184e.css.map": "/HowsCoding/static/css/main.4f2f184e.css.map",
+    "main.1aebd8fa.js.map": "/HowsCoding/static/js/main.1aebd8fa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/HowsCoding/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f2f184e.css",
+    "static/js/main.1aebd8fa.js"
+  ]
+}
