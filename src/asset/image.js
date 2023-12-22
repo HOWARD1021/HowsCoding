@@ -8,6 +8,6 @@ export default [
     { image: riseOfElves, href: "https://www.riseofelves.com/" },
   { image: pet, href: "https://petprotector.vercel.app/welcome" },
   { image: oaOL, href: "https://www.openalign.com/" },
-  { image: netflix, href: "http://188.166.240.50/" },
-  { image: oaAD, href: "/" },
+  { image: netflix, href: "https://netflixclone-orpin.vercel.app/" },
+  { image: oaAD,  href: "/"},
 ];
