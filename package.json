@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://HOWARD1021.github.io/HowsCoding",
   "dependencies": {
     "5": "0.0.1",
     "@heroicons/react": "^2.0.13",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "assign": "^0.1.7",
     "framer-motion": "^7.3.5",
+    "gh-pages": "^4.0.0",
     "heroicons-react": "^1.4.1",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
@@ -22,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
